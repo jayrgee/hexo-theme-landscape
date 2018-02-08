@@ -19,6 +19,21 @@
         <% } %>
       </nav>
       <nav id="sub-nav">
+        <% if (config.social.github){ %>
+          <a id="nav-github-link" class="nav-icon" href="https://github.com/<%= config.social.github %>"></a>
+        <% } %>
+        <% if (config.social.twitter){ %>
+          <a id="nav-twitter-link" class="nav-icon" href="https://twitter.com/<%= config.social.twitter %>"></a>
+        <% } %>
+        <% if (config.social.linkedin){ %>
+          <a id="nav-linkedin-link" class="nav-icon" href="https://linkedin.com/in/<%= config.social.linkedin %>"></a>
+        <% } %>
+        <% if (config.social.instagram){ %>
+          <a id="nav-instagram-link" class="nav-icon" href="https://instagram.com/<%= config.social.instagram %>"></a>
+        <% } %>
+        <% if (config.social.facebook){ %>
+          <a id="nav-facebook-link" class="nav-icon" href="https://facebook.com/<%= config.social.facebook %>"></a>
+        <% } %>
         <% if (theme.rss){ %>
           <a id="nav-rss-link" class="nav-icon" href="<%- url_for(theme.rss) %>" title="<%= __('rss_feed') %>"></a>
         <% } %>
