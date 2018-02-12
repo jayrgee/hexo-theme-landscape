@@ -16,12 +16,26 @@ input, button
   font-family: FontAwesome
   font-style: normal
   font-weight: normal
-  src: url(font-icon-path + ".eot?v=#" + font-icon-version)
-  src: url(font-icon-path + ".eot?#iefix&v=#" + font-icon-version) format("embedded-opentype"),
-       url(font-icon-path + ".woff?v=#" + font-icon-version) format("woff"),
-       url(font-icon-path + ".woff2?v=#" + font-icon-version) format("woff2"),
-       url(font-icon-path + ".ttf?v=#" + font-icon-version) format("truetype"),
-       url(font-icon-path + ".svg#fontawesomeregular?v=#" + font-icon-version) format("svg")
+  src: url(font-icon-path + ".eot?v=" + font-icon-version)
+  src: url(font-icon-path + ".eot?#iefix&v=" + font-icon-version) format("embedded-opentype"),
+       url(font-icon-path + ".woff2?v=" + font-icon-version) format("woff2"),
+       url(font-icon-path + ".woff?v=" + font-icon-version) format("woff"),
+       url(font-icon-path + ".ttf?v=" + font-icon-version) format("truetype"),
+       url(font-icon-path + ".svg#fontawesomeregular?v=" + font-icon-version) format("svg")
+
+@font-face
+  font-family: "Font Awesome 5 Brands"
+  font-style: normal
+  font-weight: normal
+  src: url(font-icon-brands-path + ".eot?v=" + font-icon-brands-version)
+  src: url(font-icon-brands-path + ".eot?#iefix&v=" + font-icon-brands-version) format("embedded-opentype"),
+       url(font-icon-brands-path + ".woff2?v=" + font-icon-brands-version) format("woff2"),
+       url(font-icon-brands-path + ".woff?v=" + font-icon-brands-version) format("woff"),
+       url(font-icon-brands-path + ".ttf?v=" + font-icon-brands-version) format("truetype"),
+       url(font-icon-brands-path + ".svg#fontawesomeregular?v=" + font-icon-brands-version) format("svg")
+
+.fab
+  font-family: 'Font Awesome 5 Brands'
 
 html, body, #container
   height: 100%
