@@ -18,7 +18,7 @@ module.exports = function(grunt){
       fontawesome: {
         expand: true,
         cwd: 'tmp/fontawesome/web-fonts-with-css/webfonts/',
-        src: ['fa-brands-*.*'],
+        src: ['**'],
         dest: 'source/css/fonts/'
       },
       fancybox: {

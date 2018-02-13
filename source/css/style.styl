@@ -13,9 +13,9 @@ input, button
     padding: 0
 
 @font-face
-  font-family: FontAwesome
-  font-style: normal
-  font-weight: normal
+  font-family: font-icon
+  font-style: font-icon-style
+  font-weight: font-icon-weight
   src: url(font-icon-path + ".eot?v=" + font-icon-version)
   src: url(font-icon-path + ".eot?#iefix&v=" + font-icon-version) format("embedded-opentype"),
        url(font-icon-path + ".woff2?v=" + font-icon-version) format("woff2"),
@@ -23,19 +23,24 @@ input, button
        url(font-icon-path + ".ttf?v=" + font-icon-version) format("truetype"),
        url(font-icon-path + ".svg#fontawesomeregular?v=" + font-icon-version) format("svg")
 
+.far
+  font-family: font-icon
+  font-weight: font-icon-weight
+
 @font-face
-  font-family: "Font Awesome 5 Brands"
-  font-style: normal
-  font-weight: normal
-  src: url(font-icon-brands-path + ".eot?v=" + font-icon-brands-version)
-  src: url(font-icon-brands-path + ".eot?#iefix&v=" + font-icon-brands-version) format("embedded-opentype"),
-       url(font-icon-brands-path + ".woff2?v=" + font-icon-brands-version) format("woff2"),
-       url(font-icon-brands-path + ".woff?v=" + font-icon-brands-version) format("woff"),
-       url(font-icon-brands-path + ".ttf?v=" + font-icon-brands-version) format("truetype"),
-       url(font-icon-brands-path + ".svg#fontawesomeregular?v=" + font-icon-brands-version) format("svg")
+  font-family: font-icon-brands
+  font-style: font-icon-style
+  font-weight: font-icon-weight
+  src: url(font-icon-brands-path + ".eot?v=" + font-icon-version)
+  src: url(font-icon-brands-path + ".eot?#iefix&v=" + font-icon-version) format("embedded-opentype"),
+       url(font-icon-brands-path + ".woff2?v=" + font-icon-version) format("woff2"),
+       url(font-icon-brands-path + ".woff?v=" + font-icon-version) format("woff"),
+       url(font-icon-brands-path + ".ttf?v=" + font-icon-version) format("truetype"),
+       url(font-icon-brands-path + ".svg#fontawesomeregular?v=" + font-icon-version) format("svg")
 
 .fab
-  font-family: 'Font Awesome 5 Brands'
+  font-family: font-icon-brands
+  font-weight: font-icon-weight
 
 html, body, #container
   height: 100%
